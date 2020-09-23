@@ -1,0 +1,136 @@
+[Root]
+Most Recent Package=標準安裝封裝 1
+
+
+[Package|標準安裝封裝 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=Z:\My Ping\MyPing.0804架構改變前(PingServer,LogAgent,PingAgent)\MyPing\Package
+
+[Package|標準安裝封裝 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|標準安裝封裝 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|標準安裝封裝 1|Files Found]
+
+[Package|標準安裝封裝 1|Files Released]
+
+[Package|標準安裝封裝 1|Missing Dependency Information]
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=
+C:\WINDOWS\system32\psapi.dll=
+
+[Package|標準安裝封裝 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|標準安裝封裝 1|Files Added]
+
+[Package|標準安裝封裝 1|Files Removed]
+
+[Package|標準安裝封裝 1|Files In Project]
+Z:\My Ping\MyPing.0804架構改變前(PingServer,LogAgent,PingAgent)\MyPing\myping2.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6CHT.DLL=Yes
+C:\WINDOWS\system32\psapi.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINDOWS\system32\scrrncht.dll=Yes
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\FLXGDCHT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCCHT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGCHT.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\TABCTCHT.DLL=Yes
+C:\WINDOWS\system32\comctl32.ocx=Yes
+C:\WINDOWS\system32\CMCTLCHT.DLL=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\STDFTCHT.DLL=Yes
+C:\WINDOWS\system32\ADODCCHT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|標準安裝封裝 1|Configure Registry Files]
+Applicable=No
+
+[Package|標準安裝封裝 1|Configure Remote Servers]
+Applicable=No
+
+[Package|標準安裝封裝 1|Install Locations]
+Z:\My Ping\MyPing.0804架構改變前(PingServer,LogAgent,PingAgent)\MyPing\myping2.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6CHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\psapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrncht.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FLXGDCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\comctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\CMCTLCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\STDFTCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\ADODCCHT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|標準安裝封裝 1|Configure Shared Files]
+Applicable=Yes
+Z:\My Ping\MyPing.0804架構改變前(PingServer,LogAgent,PingAgent)\MyPing\myping2.exe=No
+C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|標準安裝封裝 1|Distribution]
+Type=single
+Size=
+Title=Jimmy's Ping Server
+
+[Package|標準安裝封裝 1|IconGroups]
+Group0=Jimmy's Ping Server
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|標準安裝封裝 1|Jimmy's Ping Server]
+Icon1=myping2.exe
+Title1=Jimmy's Ping Server
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|標準安裝封裝 1|Package]
+PackageFolder=Z:\My Ping\MyPing.0804架構改變前(PingServer,LogAgent,PingAgent)\MyPing\Package
+ProjectFolder=Z:\My Ping\MyPing.0804架構改變前(PingServer,LogAgent,PingAgent)\MyPing
+ServerSideCab=
+File1=Z:\My Ping\MyPing.0804架構改變前(PingServer,LogAgent,PingAgent)\MyPing\Package\setup.exe
+File2=Z:\My Ping\MyPing.0804架構改變前(PingServer,LogAgent,PingAgent)\MyPing\Package\Setup.Lst
+File3=Z:\My Ping\MyPing.0804架構改變前(PingServer,LogAgent,PingAgent)\MyPing\Package\myping2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
